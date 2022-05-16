@@ -83,6 +83,33 @@
         "id": "gradient_background_2",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_background_2.label"
+      },
+      {
+        "type": "color",
+        "id": "custom_color_1",
+        "label": "custom_color_1",
+        "default": "#e6c9e1"
+      },
+      {
+        "id": "custom_color_2",
+        "type": "color",
+        "label": "t:settings_schema.colors.settings.custom_color_2.label",
+        "default": "#ffd2e6"
+      },
+      {
+        "id": "custom_color_3",
+        "type": "color",
+        "label": "t:settings_schema.colors.settings.custom_color_3.label"
+      },
+      {
+        "id": "custom_color_4",
+        "type": "color",
+        "label": "t:settings_schema.colors.settings.custom_color_4.label"
+      },
+      {
+        "id": "custom_color_5",
+        "type": "color",
+        "label": "t:settings_schema.colors.settings.custom_color_5.label"
       }
     ]
   },
@@ -507,6 +534,10 @@
           {
             "value": "inverse",
             "label": "t:sections.all.colors.inverse.label"
+          },
+          {
+            "value": "custom-color-1",
+            "label": "t:sections.all.colors.custom_color_1.label"
           }
         ],
         "default": "background-2",
